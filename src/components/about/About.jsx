@@ -6,7 +6,7 @@ function About() {
         <section className="xl:col-span-2 flex flex-col justify-center">
             <h1 className="text-xl mb-3">Hello, I'm Pamela.</h1>
             <h2 className="text-4xl mb-2">A developer passionate about creating intuitive and user-friendly experiences.</h2>
-            <p className="text-sm mb-7">Dedicated to transforming complex ideas into seamless, functional, and visually appealing solutions that users love.</p>
+            <p className="text-sm mb-5">Dedicated to transforming complex ideas into seamless, functional, and visually appealing solutions that users love.</p>
             <ul className="flex gap-3">
                 <li>
                     <div className="">Let's chat</div>
