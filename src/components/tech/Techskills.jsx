@@ -23,7 +23,7 @@ function Techskills() {
 		{ id: 17, technology: "Wordpress", logo: "/wordpress.svg" },
 	];
 
-	const SkillItems = technicalSkills.map(skill =>
+	const skillItems = technicalSkills.map(skill =>
 		<Skill
 			logo={skill.logo}
 			technology={skill.technology}
@@ -34,7 +34,7 @@ function Techskills() {
         <section>
             <h2 className="text-sm mb-4">I've been coding since high school and I'm still going strong. I love learning new things and pushing the boundaries of technology.</h2>
 			<ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 sm:gap-3 md:grid-cols-9 md:gap-2 lg:grid-cols-12 xl:grid-cols-5">
-				{SkillItems}
+				{skillItems}
 			</ul>
         </section>
     );
