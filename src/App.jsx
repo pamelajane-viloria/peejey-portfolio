@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/about/About';
 import Techskills from './components/tech/Techskills';
 import Projects from './components/projects/projects';
+import Contact from './components/contact/Contact';
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
 				<Techskills />
 			</div>
 			<Projects />
+			<div className="grid grid-cols-1">
+				<Contact />
+			</div>
 		</main>
 	)
 }
