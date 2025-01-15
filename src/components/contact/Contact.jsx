@@ -7,7 +7,9 @@ function Contact() {
             <h2>Contact Me</h2>
             <p>Feel free to reach out to me via email</p>
             <button onClick={() => {navigator.clipboard.writeText(this.state.textToCopy)}}>pamelajaneviloria@gmail.com</button>
-            {/* Button for email */}
+            <a href="#">pamelajaneviloria@gmail.com</a>
+            <a href="">Github</a>
+            <a href="">LinkedIn</a>
             {/* links like github linkedin */}
         </section>
     );
