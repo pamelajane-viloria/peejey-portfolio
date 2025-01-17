@@ -25,6 +25,7 @@ function Techskills() {
 
 	const skillItems = technicalSkills.map(skill =>
 		<Skill
+			key={skill.id}
 			logo={skill.logo}
 			technology={skill.technology}
 		/>

@@ -10,7 +10,7 @@ function Projects() {
 	];
 
     const projectsItems = projects.map(project =>
-		<section className="relative min-h-[450px] flex flex-col overflow-hidden group">
+		<section className="relative min-h-[450px] flex flex-col overflow-hidden group" key={project.id}>
             <h2 className="font-bold text-xl mb-3">{project.name}</h2>
             <p className="text-sm mb-2">{project.description}</p>
             <Techstack 
